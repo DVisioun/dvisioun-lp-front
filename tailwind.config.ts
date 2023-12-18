@@ -7,16 +7,6 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    colors: {
-      "primary-blue": "#3BC9DB",
-      "dark-blue": "#0C8599",
-      "gray-100": "#F8F9FA",
-      "gray-200": "#F1F3F5",
-      "gray-300": "#E9ECEF",
-      "gray-400": "#CED4DA",
-      "gray-500": "#868E96",
-      "gray-600": "#343A40",
-    },
     fontSize: {
       base: "1rem",
       lg: "1.25rem",
@@ -25,7 +15,19 @@ const config: Config = {
       "3xl": "3rem",
       "4xl": "4rem",
     },
-    extend: {},
+    extend: {
+      colors: {
+        "primary-blue": "#3BC9DB",
+        "dark-blue": "#0C8599",
+        "gray-100": "#F8F9FA",
+        "gray-200": "#F1F3F5",
+        "gray-300": "#E9ECEF",
+        "gray-400": "#CED4DA",
+        "gray-500": "#868E96",
+        "gray-600": "#343A40",
+        "gray-700": "#2d2d2d",
+      },
+    },
   },
   plugins: [require("@tailwindcss/forms")],
 };
