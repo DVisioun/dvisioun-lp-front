@@ -34,7 +34,7 @@ const config: Config = {
       colors: {
         "primary-blue": "#3BC9DB",
         "dark-blue": "#0C8599",
-        "gray-100": "#F8F9FA",
+        "gray-100": "#F6f6f6",
         "gray-200": "#F1F3F5",
         "gray-300": "#E9ECEF",
         "gray-400": "#CED4DA",
@@ -43,6 +43,9 @@ const config: Config = {
         "gray-700": "#2d2d2d",
         "gray-800": "#303030",
         "dark-gray-transparent": "rgba(52, 58, 64, 0.2)",
+      },
+      boxShadow: {
+        "3xl": "0px 0px 10px 0px rgba(59,201,219,1)",
       },
     },
   },
