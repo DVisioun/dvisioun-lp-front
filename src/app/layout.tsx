@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={outfit.className && "p-4 bg-gray-700"}>{children}</body>
+      <body className={outfit.className && "bg-gray-700"}>{children}</body>
     </html>
   );
 }

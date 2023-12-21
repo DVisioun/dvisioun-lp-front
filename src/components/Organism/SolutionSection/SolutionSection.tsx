@@ -5,12 +5,13 @@ import { solutionAtom } from "@/states/solution.mock";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectFlip, Pagination, Autoplay } from "swiper/modules";
 import "@/swiper/swiper-bundle.min.css";
+import BoxSolution from "@/components/Molecule/BoxSoluction/BoxSolution";
 
 const SolutionSection = () => {
   const [solutions] = useState(solutionAtom.init);
 
   return (
-    <section className="bg-gray-700 flex flex-col items-center justify-center gap-8">
+    <section className="bg-gray-700 flex flex-col items-center justify-center gap-8 py-4">
       <Image
         src="/DvisiounLogo.png"
         width={128}
@@ -18,16 +19,15 @@ const SolutionSection = () => {
         alt="D'Visioun Logo"
         aria-label="D'Visioun Logo"
       ></Image>
-      <p className="uppercase text-gray-100 font-semibold text-center text-base">
+      <p className="uppercase text-gray-100 font-semibold text-center text-base w-4/5">
         Somos a <span className="text-primary-blue uppercase">solução</span>{" "}
-        para você e seu negócio{" "}
-        <span className="text-primary-blue uppercase">
-          continuarem lucrando!
-        </span>
+        para <span className="text-primary-blue uppercase">alavancar</span> você
+        e seu negócio{" "}
+        <span className="text-primary-blue uppercase">rumo ao sucesso</span>
       </p>
       <Swiper
         slidesPerView={1}
-        className="w-full"
+        className="w-4/5"
         autoHeight={true}
         effect={"flip"}
         grabCursor={true}
@@ -60,6 +60,7 @@ const SolutionSection = () => {
           </SwiperSlide>
         ))}
       </Swiper>
+      <BoxSolution />
     </section>
   );
 };
