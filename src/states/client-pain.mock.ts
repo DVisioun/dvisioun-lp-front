@@ -3,19 +3,19 @@ import { PainProps } from "@/@types";
 export const clientPainInformation: PainProps[] = [
   {
     id: 1,
-    title: "Falta de Visibilidade",
+    title: "Visibilidade",
     description:
       "A falta de um site na internet significa que a sua empresa ou marca não está visível online. Isso pode fazer com que você perca oportunidades de negócios para concorrentes que possuem um site e estão visíveis na internet.",
   },
   {
     id: 2,
-    title: "Limitações no Alcance",
+    title: "Alcance",
     description:
       "Sem um site na internet, a sua empresa ou marca está limitada ao seu alcance geográfico e ao seu público local. Isso pode dificultar a atração de novos clientes e expandir seus negócios.",
   },
   {
     id: 3,
-    title: "Falta de Credibilidade",
+    title: "Credibilidade",
     description:
       "A ausência de um site pode levar os clientes a questionarem a credibilidade da sua empresa ou marca. Isso pode prejudicar a confiança e a reputação do seu negócio.",
   },
