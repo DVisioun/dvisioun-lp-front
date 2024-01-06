@@ -42,6 +42,7 @@ const config: Config = {
         "gray-600": "#343A40",
         "gray-700": "#2d2d2d",
         "gray-800": "#303030",
+        "gray-900": "#222222",
         "dark-gray-transparent": "rgba(52, 58, 64, 0.2)",
       },
       boxShadow: {
