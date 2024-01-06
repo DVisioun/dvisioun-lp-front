@@ -8,9 +8,8 @@ const config: Config = {
   ],
   theme: {
     screens: {
-      "d-0.03": { min: "340px" },
-      "d-0.02": { min: "480px" },
-      "d-0.01": { min: "600px" },
+      "d-0.02": { min: "320px" },
+      "d-0.01": { min: "480px" },
       "d-0": { min: "768px" },
       "d-0.1": { min: "970px" },
       "d-0.2": { min: "1080px" },
@@ -29,7 +28,7 @@ const config: Config = {
       "2xl": "2rem",
       "3xl": "2.5rem",
       "4xl": "3rem",
-      "5xl": "4rem"
+      "5xl": "4rem",
     },
     extend: {
       colors: {
@@ -42,6 +41,8 @@ const config: Config = {
         "gray-500": "#868E96",
         "gray-600": "#343A40",
         "gray-700": "#2d2d2d",
+        "gray-800": "#303030",
+        "dark-gray-transparent": "rgba(52, 58, 64, 0.2)",
       },
       boxShadow: {
         "3xl": "0px 0px 10px 0px rgba(59,201,219,1)",
