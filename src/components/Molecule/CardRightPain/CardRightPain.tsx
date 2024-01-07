@@ -15,11 +15,11 @@ export const CardRightPain = ({ description, title, id }: PainProps) => {
         />
       </div>
       <div className="flex flex-col gap-2 items-end d-0.1:items-center d-0.1:gap-4">
-        <div className="flex gap-4 bg-gray-800 rounded-tl-3xl rounded-br-3xl relative w-[15rem] d-0:w-[18rem] px-2">
+        <div className="flex gap-4 bg-gray-800 rounded-bl-3xl rounded-tr-3xl relative w-[15rem] d-0:w-[18rem] px-2">
           <p className="text-base font-medium text-white w-full text-center d-0:text-lg d-0.1:text-xl">
             {title}
           </p>
-          <div className="flex items-center justify-center font-medium text-lg -translate-y-1 bg-gradient-to-b from-primary-blue to-dark-blue text-white bg-primary-blue border-2 border-gray-800 p-2 rounded-[50%] absolute w-[2rem] h-[2rem]  d-0.1:w-[2.5rem] d-0.1:h-[2.5rem]  d-0.1:text-2xl">
+          <div className="flex items-center justify-center font-medium text-lg -translate-y-1 bg-gradient-to-b from-primary-blue to-dark-blue text-white bg-primary-blue border-2 border-gray-800 p-2 rounded-[50%] absolute right-2 w-[2rem] h-[2rem] d-0.1:w-[2.5rem] d-0.1:h-[2.5rem] d-0.1:text-2xl">
             {id}
           </div>
         </div>
