@@ -1,11 +1,6 @@
+import { SolutionInterface } from "@/@types";
 import { atom } from "jotai";
 
-interface SolutionInterface {
-  id: number;
-  imgPath: string;
-  title: string;
-  description: string;
-}
 
 export const solutionAtom = atom<SolutionInterface[]>([
   {

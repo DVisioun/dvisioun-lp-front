@@ -1,6 +1,7 @@
 import { PainProps } from "@/@types";
+import { atom } from "jotai";
 
-export const clientPainInformation: PainProps[] = [
+export const clientPainInformation = atom<PainProps[]>([
   {
     id: 1,
     title: "Visibilidade",
@@ -31,4 +32,4 @@ export const clientPainInformation: PainProps[] = [
     description:
       "Sem um site, a sua empresa ou marca pode perder oportunidades de marketing valiosas, como publicidade online, marketing por e-mail e promoções especiais. Isso pode afetar negativamente o crescimento e o sucesso do seu negócio.",
   },
-];
+]);
