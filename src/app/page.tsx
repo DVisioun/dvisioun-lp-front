@@ -1,6 +1,7 @@
 import { Footer } from "@/components/Organism/Footer/Footer";
 import { Hero } from "@/components/Organism/Hero/Hero";
 import Portfolio from "@/components/Molecule/Portfolio/Portfolio";
+import { PainSection } from "@/components/Organism/PainSection/PainSection";
 import SolutionSection from "@/components/Organism/SolutionSection/SolutionSection";
 import { register } from "swiper/element/bundle";
 import "swiper/css";
@@ -16,6 +17,7 @@ export default function Home() {
   return (
     <main className="flex flex-col">
       <Hero />
+      <PainSection />
       <SolutionSection />
       <Portfolio />
       <Footer />

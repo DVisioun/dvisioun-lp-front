@@ -1,3 +1,9 @@
 export type ButtonProps = {
-    title: string
-}
+  title: string;
+};
+
+export type PainProps = {
+  id: number;
+  title: string;
+  description: string;
+};
