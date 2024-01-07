@@ -11,7 +11,7 @@ const SolutionSection = () => {
   const [solutions] = useState(solutionAtom.init);
 
   return (
-    <section className="bg-gray-700 flex flex-col items-center justify-center gap-8 py-4">
+    <section className="bg-gray-700 flex flex-col items-center justify-center gap-8 py-16">
       <Image
         src="/DvisiounLogo.png"
         width={128}
