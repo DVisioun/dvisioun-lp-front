@@ -1,3 +1,5 @@
+import { BoxAboutUs } from "@/components/Molecule/BoxAboutUs/BoxAboutUs";
+import ReasonsToInvest from "@/components/Molecule/ReasonsToInvest/ReasonsToInvest";
 import { Footer } from "@/components/Organism/Footer/Footer";
 import { Hero } from "@/components/Organism/Hero/Hero";
 import { PainSection } from "@/components/Organism/PainSection/PainSection";
