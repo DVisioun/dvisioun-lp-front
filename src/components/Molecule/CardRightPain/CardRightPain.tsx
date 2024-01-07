@@ -11,7 +11,7 @@ export const CardRightPain = ({ description, title, id }: PainProps) => {
           width={0}
           height={0}
           alt=""
-          className="w-16"
+          className="w-16 d-1:w-40"
         />
       </div>
       <div className="flex flex-col gap-2 items-end d-0.1:items-center d-0.1:gap-4">
@@ -24,7 +24,7 @@ export const CardRightPain = ({ description, title, id }: PainProps) => {
           </div>
         </div>
         <div className="flex items-baseline gap-2 justify-end d-0.1:justify-center">
-          <p className="text-sm text-right w-[78%] d-0.01:w-[70%] d-0:w-[60%] d-0.1:w-[50%] d-1:max-w-[1200px] d-0.1:text-justify d-0:text-base d-0.1:text-lg d-0.1:leading-8">
+          <p className="text-sm font-medium text-right w-[78%] d-0.01:w-[70%] d-0:w-[60%] d-0.1:w-[50%] d-1:max-w-[1200px] d-0.1:text-justify d-0:text-base d-0.1:text-lg d-0.1:leading-8">
             {description}
           </p>
           <Image
