@@ -11,7 +11,7 @@ export const CardLeftPain = ({ description, title, id }: PainProps) => {
           width={0}
           height={0}
           alt=""
-          className="w-16"
+          className="w-16 d-1:w-40"
         />
       </div>
       <div className="flex flex-col gap-2 items-start d-0.1:items-center d-0.1:gap-4">
@@ -33,7 +33,7 @@ export const CardLeftPain = ({ description, title, id }: PainProps) => {
             alt=""
             className="w-auto"
           />
-          <p className="text-sm text-left w-[78%] d-0.01:w-[70%] d-0:w-[60%] d-0.1:w-[50%] d-1:max-w-[1200px] d-0.1:text-justify d-0:text-base d-0.1:leading-8 d-0.1:text-lg">
+          <p className="text-sm text-left font-medium w-[78%] d-0.01:w-[70%] d-0:w-[60%] d-0.1:w-[50%] d-1:max-w-[1200px] d-0.1:text-justify d-0:text-base d-0.1:leading-8 d-0.1:text-lg">
             {description}
           </p>
         </div>
