@@ -1,8 +1,12 @@
+"use client"
 import { CardLeftPain } from "@/components/Molecule/CardLeftPain/CardLeftPain";
 import { clientPainInformation } from "../../../states/client-pain.mock";
 import { CardRightPain } from "@/components/Molecule/CardRightPain/CardRightPain";
+import { useState } from "react";
 
 export const PainSection = () => {
+  const [pain] = useState(clientPainInformation.init);
+
   return (
     <section className="bg-primary-blue">
       <div className="flex justify-center bg-dark-gray-transparent">
@@ -16,7 +20,7 @@ export const PainSection = () => {
       </div>
       <div>
         <div className="flex flex-col gap-8 py-8 d-0.1:gap-12">
-          {clientPainInformation.map((item) => {
+          {pain.map((item) => {
             if (item.id % 2 === 0) {
               return (
                 <CardRightPain

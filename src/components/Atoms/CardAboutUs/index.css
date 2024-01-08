@@ -1,0 +1,48 @@
+.clip-hover-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .clip-hover-item {
+    position: relative;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+  .clip-hover-content {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .clip-hover-mask,
+  .clip-hover-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: clip-path 0.4s ease-in-out;
+  }
+  
+  .clip-hover-mask {
+    background-color: rgba(0, 0, 0, 0.6);
+    clip-path: circle(0% at 50% 50%);
+  }
+  
+  .clip-hover-item:hover .clip-hover-mask {
+    clip-path: circle(0% at 50% 50%);
+  }
+  
+  .clip-hover-image {
+    background-image: url('https://via.placeholder.com/300x400');
+    background-size: cover;
+    clip-path: circle(0% at 50% 50%);
+    z-index: 0;
+  }
+  
