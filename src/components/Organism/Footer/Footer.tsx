@@ -1,5 +1,4 @@
 import { NavBarFooter } from "@/components/Molecule/NavBarFooter/NavBarFooter";
-import Image from "next/image";
 import React from "react";
 
 export const Footer = () => {
