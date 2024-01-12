@@ -1,5 +1,6 @@
+import { CardAboutUs } from '@/components/Atoms/CardAboutUs/CardAboutUs';
 import React from 'react';
-import CardAboutUs from '@/components/Atoms/CardAboutUs/CardAboutUs';
+
 
 export const BoxAboutUs = () => {
   return (

@@ -1,3 +1,5 @@
+
+import { AboutUs } from "@/components/Organism/AboutUs/AboutUs";
 import NavBarHeader from "@/components/Organism/NavBarHeader/NavBarHeader";
 import { BoxAboutUs } from "@/components/Molecule/BoxAboutUs/BoxAboutUs";
 import ReasonsToInvest from "@/components/Molecule/ReasonsToInvest/ReasonsToInvest";
