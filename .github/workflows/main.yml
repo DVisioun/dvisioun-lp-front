@@ -25,9 +25,6 @@ jobs:
       - name: Build project assets
         run: npm run build
 
-      - name: Start server
-        run: npm run start
-
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
