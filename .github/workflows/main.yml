@@ -10,10 +10,22 @@ jobs:
     steps:
     - name: 🚚 Get latest code
       uses: actions/checkout@v3
+
+    - name: Node setup
+    - uses: actions/setup-node@v3
+      with: 
+        node-version: 20
+        cache: 'npm'
+
     - name: Install NPM dependencies
-      run: npm install
+      run: npm ci
+
     - name: Build project assets
       run: npm run build
+
+    - name: Start server
+      run: npm run start
+
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
