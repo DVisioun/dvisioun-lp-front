@@ -11,14 +11,14 @@ export const CardRatings = ({ img, name, rating, review }: RatingProps) => {
   };
 
   return (
-    <div className="flex flex-col gap-4 items-center text-justify d-0:text-center bg-gray-900 rounded-lg shadow-lg p-5 d-0:p-7 h-[26rem]">
+    <div className="flex flex-col gap-4 items-center text-left d-0:text-center bg-gray-900 rounded-lg shadow-lg p-6 d-0:p-7 h-[26rem] max-w-[400px] m-auto">
       <div className="flex flex-col gap-3 items-center">
         <Image
           src={img}
           alt=""
           width={0}
           height={0}
-          className="w-10 h-10 rounded-full"
+          className="w-16 h-16 rounded-full"
         />
         <div className="flex gap-1 items-center">{generateRatingStars()}</div>
       </div>

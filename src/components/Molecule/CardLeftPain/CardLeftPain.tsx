@@ -5,13 +5,13 @@ import React from "react";
 export const CardLeftPain = ({ description, title, id }: PainProps) => {
   return (
     <div className="flex flex-col items-start gap-2 relative px-2 d-1:items-center">
-      <div className="absolute right-0 -translate-y-2 d-0.01:-translate-y-10">
+      <div className="absolute right-0 -translate-y-2 d-0.01:-translate-y-1/4">
         <Image
           src="/images/pain-section/rightBigArrow.svg"
           width={0}
           height={0}
           alt=""
-          className="w-16 d-1:w-40"
+          className="w-16 d-0.1:w-52 d-1:w-60"
         />
       </div>
       <div className="flex flex-col gap-2 items-start d-0.1:items-center d-0.1:gap-4">

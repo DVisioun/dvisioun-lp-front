@@ -19,7 +19,7 @@ export const PainSection = () => {
         </h1>
       </div>
       <div>
-        <div className="flex flex-col gap-8 py-8 d-0.1:gap-12">
+        <div className="flex flex-col gap-8 py-8 d-0.1:gap-12 d-1:gap-24 d-1:py-20">
           {pain.map((item) => {
             if (item.id % 2 === 0) {
               return (

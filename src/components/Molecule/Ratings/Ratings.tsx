@@ -1,16 +1,16 @@
 "use client";
 
-import { CardRatings } from "@/components/Atoms/CardRatings/CardRatings";
-import { ratingInformation } from "@/states/rating.mock";
 import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCube, Pagination } from "swiper/modules";
+import { CardRatings } from "@/components/Atoms/CardRatings/CardRatings";
+import { ratingInformation } from "@/states/rating.mock";
 import "@/swiper/swiper-bundle.min.css";
 
 export const Ratings = () => {
   const [ratings] = useState(ratingInformation.init);
   return (
-    <div className="flex flex-col gap-6 px-2 d-0:px-6 items-center justify-center bg-primary-blue py-12 overflow-hidden">
+    <div className="flex flex-col gap-6 px-4 d-0:px-6 items-center justify-center bg-primary-blue py-12 overflow-hidden">
       <div className="flex gap-2">
         {
             Array(8).fill("").map((_, i) => (
@@ -40,6 +40,8 @@ export const Ratings = () => {
           clickable: true,
         }}
         modules={[EffectCube, Pagination]}
+        loop
+        
       >
         {ratings.map((rating) => (
           <SwiperSlide key={rating.id}>
