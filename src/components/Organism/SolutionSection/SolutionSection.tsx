@@ -13,7 +13,7 @@ const SolutionSection = () => {
   return (
     <section className="bg-gray-700 flex flex-col items-center justify-center gap-8 py-16">
       <Image
-        src="/DvisiounLogo.png"
+        src="/logo.svg"
         width={128}
         height={48}
         alt="D'Visioun Logo"

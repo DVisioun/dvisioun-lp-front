@@ -1,8 +1,9 @@
+import { Button } from "@/components/Atoms/Button/Button";
 import React from "react";
 
 export const BoxHero = () => {
   return (
-    <div className="flex flex-col items-center gap-4 bg-gradient-to-b from-gray-500 to-dark-blue px-5 py-8 d-1:px-10 d-1:py-12 rounded-md max-w-[22rem] d-1:max-w-[30rem] u-1:max-w-[35rem]">
+    <div className="flex flex-col items-center gap-4 bg-gradient-to-b from-gray-500 to-primary-blue px-5 py-8 d-1:px-10 d-1:py-12 rounded-md max-w-[22rem] d-1:max-w-[30rem] u-1:max-w-[35rem]">
       <div>
         <h1 className="w-[13rem] d-0:w-[15rem] d-1:w-[25rem] u-1:w-[30rem] u-2:w-[35rem] font-bold text-white text-center text-lg d-0:text-xl d-1:text-3xl u-1:text-4xl">
           ESTAR NA INTERNET NÃO É O SUFICIENTE
@@ -24,6 +25,7 @@ export const BoxHero = () => {
           Em até 4 semanas, para impulsionar o seu negócio.
         </p>
       </div>
+      <Button title="Quero ter meu site!"/>
     </div>
   );
 };
